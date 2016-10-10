@@ -1,0 +1,301 @@
+/*main*/
+.main,#side{
+	padding: 0 15px;
+	float: left;
+}
+.main{
+	margin-bottom: 30px;
+	padding-left: 200px;
+	width: 750px;
+}
+.main-header{
+	box-shadow: 0 2px 3px rgba(0,0,0,0.18);
+	border-radius: 2px;
+	position: relative;
+	background-color: #FFF;
+	margin: 0 0 14px;
+}
+.card-header{
+	background-color: #F5F5F5;
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+	border-bottom: 1px solid #ddd;
+	font-size: 16px;
+	line-height: 28px;
+	padding: 6px 8px;
+	text-align: left;
+}
+.card-header a{
+	color: #225599;
+}
+.card-header a:hover{
+	color: #333;
+}
+.card-inner{
+	padding: 6px 8px;
+	text-align: left;
+}
+.main .card-inner li{
+	width: 50%;
+	float: left;
+	line-height: 20px;
+}
+.main .card-inner a{
+	font-size: 12px;
+	margin: 0 3px;
+	color: #259;
+}
+.main .card-inner a:hover{
+	color: #ff9900;
+}
+.group-list{
+	margin: 0 0 0 -15px;
+}
+.group-list li{
+	width: 50%;
+	float: left;
+}
+.group-list .group{
+	height: 58px;
+	padding: 6px 8px 6px 60px;
+	overflow: hidden;
+	box-shadow: 0 2px 3px rgba(0,0,0,0.18);
+	border-radius: 2px;
+	position: relative;
+	background-color: #FFF;
+	margin: 0 0 14px 14px;
+	text-align: left;
+}
+.group a{
+	color: #259;
+}
+.group a img{
+	position: absolute;
+	top: 6px;
+	left: 8px;
+}
+.group-list .name{
+	font-size: 14px;
+	display: inline;
+}
+.member-count{
+	margin-left: 5px;
+}
+.member-count,.desc{
+	font-size: 12px;
+	color: #777;
+}
+/*end main*/
+
+/*side*/
+.widget{
+	background-color: #FFF;
+	box-shadow: 0 2px 3px rgba(0,0,0,0.18);
+	border-radius: 2px;
+	position: relative;
+	margin: 0 0 14px;
+	text-align: left;
+}
+.side-header{
+	background-color: #F5F5F5;
+	padding: 6px 8px;
+	border-bottom: 1px solid #ddd;
+	line-height: 28px;
+	font-size: 16px;
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+	width: 240px;
+}
+.inner{
+	padding: 10px 8px;
+}
+.inner a{
+	color: #fff;
+	background-color: #259;
+	padding: 8px 10px;
+	font-size: 14px;
+	border-radius: 2px;
+	border-color: #1d4984;
+	display: inline-block;
+}
+.inner a:hover{
+	background-color: #163b6d;
+}
+/*end side*/
+
+/*pagebar*/
+.pagebar{
+	clear: both;
+	position: relative;
+	padding: 10px 0 10px 10px;
+	color: #555;
+}
+.page{
+	display: block;
+	float: right;
+	line-height: 36px;
+	font-size: 14px;
+}
+.page .pfist{
+	color: #fff;
+	background-color: #259;
+	padding: 8px 12px;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+	border-radius: 2px;
+}
+.page span,.page a{
+	color: #259;
+	padding: 8px 12px;
+	background-color: #fff;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+	border-radius: 2px;
+}
+.page a:hover{
+	color: #fff;
+	background-color: #259;
+}
+.page form{
+	float: right;
+}
+.page form input{
+	text-align: center;
+	font-size: 13px;
+	margin: 0 .5em;
+	padding: 3px 3px;
+	line-height: 1.4em;
+	width: 60px;
+}
+.pbt{
+	padding: 5px 10px;
+	font-size: 13px;
+	line-height: 1.5;
+	border-radius: 2px;
+	color: #333;
+	background-color: #fff;
+	outline: none;
+	border:1px solid #ccc;
+}
+.pbt:hover{
+	background-color: #DDDDDD;
+}
+/*end pagebar*/
+/*end section*/
+
+/*footer*/
+.footer .tag_list{
+	margin-top: 6px;
+	float: left;
+}
+.tag_list{
+	line-height: 1em;
+}
+.tag_pic{
+	width: 16px;
+	height: 16px;
+	font-size: 16px;
+	display: inline-block;
+}
+.tag_list a{
+	display: inline-block;
+	font-size: 12px;
+	color: #fff;
+	background: #999;
+	border-radius: 2px;
+	margin-right: 4px;
+	padding: 2px 6px;	
+}
+.tubo_menu{
+	margin: 6px 12px 0 0;
+	float: right;
+	line-height: 16px;
+}
+.icon-like{
+	text-align: left;
+	text-indent: -9999px;
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: url(../img/activity-list_img/like.png) no-repeat;
+}
+#list1 .center img{
+	width: 400px;
+	height: 280px;
+}
+#list3 .center a{
+	float: left;
+}
+#list3 .center img{
+	height: 270px;
+	margin: 0 2px 2px 0;
+	display: inline-block;
+}
+#list3 #center1 img,#center3 img{
+	width: 415px;
+}
+#list3 #center2 img{
+	width: 198px;
+}
+#list4 .center a{
+	float: left;
+}
+#list4 .center img{
+	width: 342px;
+	height: 240px;
+	margin: 0 2px 2px 0;
+	display: inline-block;
+}
+#list4 .center,#list3 .center{
+	clear: both;
+	margin: 0;
+	height: auto;
+}
+/*end footer*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

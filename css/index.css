@@ -1,0 +1,307 @@
+.container h3{
+	font-size: 30px;
+	color: #259;
+	line-height: 40px;
+	letter-spacing: .1em;
+}
+.container p{
+	display: block;
+	margin-top: 5px;
+	color: #2B2B2B;
+}
+/*find*/
+#find {
+	margin: 50px 0;
+}
+#find #find_roll{
+	margin: 10px 0;
+	position: relative;
+}
+.btn_left{
+	width: 48px;
+	height: 48px;
+	background: url(../img/btn_arrow/btn_left.png) no-repeat;
+	position: absolute;
+	top: 86px;
+	left: 45px;
+}
+.btn_left:hover{
+	background: url(../img/btn_arrow/btn_ac_left.png) no-repeat;
+	position: absolute;
+	top: 86px;
+	left: 45px;
+}
+.btn_right{
+	width: 48px;
+	height: 48px;
+	background: url(../img/btn_arrow/btn_right.png) no-repeat;
+	position: absolute;
+	top: 86px;
+	left: 1218px;
+}
+.btn_right:hover{
+	background: url(../img/btn_arrow/btn_ac_right.png) no-repeat;
+	position: absolute;
+	top: 86px;
+	left: 1218px;
+}
+.btn_left:hover,.btn_right:hover{
+	width: 48px;
+	height: 48px;
+	 transition: .3s all;
+	 -webkit-transition: .3s all;
+	 -moz-transition: .3s all;
+	 -o-transition: .3s all;
+	 -ms-transition: .3s all;
+}
+#find_roll{
+	width: 1263px;
+	height: 220px;
+	margin: 30px auto 0;
+}
+#find_roll .mroll{
+	width: 1050px;
+	height: 220px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+#find_roll .roll{
+	width: 3500px;
+	height: 220px;
+	position: relative;
+}
+.roll1{
+	width: 7000px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.roll ul li {
+	float: left;
+	width: 330px;
+	height: 220px;
+	margin: 0 10px;
+}
+/*end find*/
+
+/*activity-list*/
+ol{
+	display: block;
+}
+.activity-list li{
+	clear: both;
+	width: 1050px;
+	height: auto;
+	background-color: #fff;
+	margin: 0 auto 20px;
+	box-shadow: 0 2px 3px rgba(0,0,0,0.18);
+	border-radius: 3px;
+	display: list-item;
+}
+.a_card{
+	padding: 6px 8px;
+	position: relative;
+}
+.a_card a ,.a_card em{
+	color: #999;
+}
+/*header*/
+.activity-list .header{
+	position: relative;
+	line-height: 14px;
+	padding: 0 0 3px 40px;
+	height: 38px;
+}
+.author_pic{
+	position: absolute;
+	left: 0;
+	height: 0;
+}
+.author_pic img{
+	width: 32px;
+	height: 32px;
+}
+.header .author ,.header h4 .time{
+	float: left;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+.header h4{	
+	line-height: 24px;
+}
+.header h4 .title{
+	color: #259;
+	font-size: 14px;
+	clear: both;
+	float: left;
+	margin:0 5px 3px 2px;
+}
+.header .author ,.header h4 .time{
+	margin:0 5px 0 2px;
+}
+.header .add{
+	background: url(../img/activity-list_img/add.png) no-repeat 0 0;
+	text-indent: -9999px;
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+}
+.header .add:hover{
+	background: url(../img/activity-list_img/add_h.png) no-repeat 0 0;
+	text-indent: -9999px;
+}
+/*end header*/
+
+/*center*/
+.center{
+	margin: 0 12px 0 0;
+}
+#list2 .center{
+	clear: both;
+}
+.center p{
+	line-height: 1.5em;
+	text-align: left;
+	color: #444;
+	/*word-break: break-word;*/
+}
+.center img{
+	width: 360px;
+	height: 240px;
+	margin: 0;
+	float: left;
+	clear: both;
+	margin-right: 20px;
+}
+/*end center*/
+
+/*footer*/
+.footer .tag_list{
+	margin-top: 6px;
+	float: left;
+}
+.tag_list{
+	line-height: 1em;
+}
+.tag_pic{
+	width: 16px;
+	height: 16px;
+	font-size: 16px;
+	display: inline-block;
+}
+.tag_list a{
+	display: inline-block;
+	font-size: 12px;
+	color: #fff;
+	background: #999;
+	border-radius: 2px;
+	margin-right: 4px;
+	padding: 2px 6px;	
+}
+.tag_list a:hover{
+	background-color: #337733;
+}
+.tubo_menu{
+	margin: 6px 20px 0 0;
+	float: right;
+	line-height: 16px;
+}
+.tubo_menu a:hover,.tubo_menu em:hover{
+	color: #ff9900;
+}
+.icon-like{
+	text-align: left;
+	text-indent: -9999px;
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: url(../img/activity-list_img/like.png) no-repeat;
+}
+
+.icon-like2{
+	background: url(../img/activity-list_img/like2.png) no-repeat!important;
+}
+
+#list1 .center img{
+	width: 400px;
+	height: 280px;
+}
+#list3 .center a{
+	float: left;
+}
+#list3 .center img{
+	height: 270px;
+	margin: 0 2px 2px 0;
+	display: inline-block;
+}
+#list3 #center1 img,#center3 img{
+	width: 415px;
+}
+#list3 #center2 img{
+	width: 198px;
+}
+#list4 .center a{
+	float: left;
+}
+#list4 .center img{
+	width: 342px;
+	height: 240px;
+	margin: 0 2px 2px 0;
+	display: inline-block;
+}
+#list4 .center,#list3 .center{
+	clear: both;
+	margin: 0;
+	height: auto;
+}
+/*end footer*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
