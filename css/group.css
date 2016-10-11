@@ -58,7 +58,7 @@
 .group-list{
 	margin: 0 0 0 -15px;
 }
-.group-list li{
+.group-list>div{
 	width: 50%;
 	float: left;
 }
@@ -80,6 +80,18 @@
 	position: absolute;
 	top: 6px;
 	left: 8px;
+}
+.group .move{
+	height: 16px;
+	width: 16px;
+	position: absolute;
+	right: 12px;
+	top: 10px;
+	font-size: 24px;
+	color: #333;
+	cursor: move;
+	background: url(../img/move.png) no-repeat 0 0;
+	display: none
 }
 .group-list .name{
 	font-size: 14px;
