@@ -61,6 +61,7 @@ $(function(){
 		$(this).find("a").addClass("active");
 		$(this).siblings().find("a").removeClass("active");
 	})
+	})
 	//回到顶部
 	var backTop = document.getElementsByClassName('backtop')[0];
 	var scrollTop = null;
@@ -79,5 +80,4 @@ $(function(){
     	scrollTop = document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop;
         backTop.style.display = (document.body.scrollTop >= 500) ? "block" : "none";
     }
-    //group部分
 })
