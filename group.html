@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>Wolfshell</title>
+		<link href="img/theWolf.ico" rel="shortcut icon" />
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+	    	<link rel="stylesheet" type="text/css" href="css/about.css" />
+	    	<link rel="stylesheet" type="text/css" href="css/camera.css" />
+	    	<link rel="stylesheet" type="text/css" href="css/group.css" />
+	    	<link rel="stylesheet" type="text/css" href="css/icon.css" />
+		<script src="js/jquery.min.js" type="text/javascript"></script>
+		<!-- <script src="js/index.js" type="text/javascript"></script> -->
+		<!-- <script src="js/icon.js" type="text/javascript"></script> -->
+		<!-- <script src="js/camera.js" type="text/javascript"></script> -->
+		<script src="js/common.js" type="text/javascript"></script>
+	</head>
+
+	<body>
+
+		<header>
+			<div id="banner_tabs">
+				<section>
+					<div class="logo"><a href="index.html"><h2>Wolfshell</h2></a></div>
+					<div class="navigation">
+						<ul>
+							<li><a href="index.html">首页</a></li>
+							<li><a href="group.html" class="active">小组</a></li>
+							<li><a href="icon.html">影像</a></li>
+							<li><a href="camera.html">器材</a></li>
+							<li><a href="about.html">关于</a></li>
+						</ul>
+					</div>
+					<div id="search">
+						<div class="center"></div>
+						<input type="text" class="search" placeholder="发现更多美" />
+						<a href="#" class="btn">搜索</a>
+					</div>
+				</section>
+			</div>
+		</header>
+		<nav>
+			<nav class="nav-container">
+				<div class="nav-title">
+					<a href="group.html">小组<span class="nav-link"></span></a>
+					<nav class="nav-more">
+						<div class="nav-more-arrow"></div>
+						<div class="col-first">
+							<h2 class="nav-heading">
+								<a href="index.html" class="prefix-batch batch-home">首页</a>
+							</h2>
+							<h2 class="nav-heading">
+								<a href="icon.html" class="prefix-batch batch-movie">影像</a>
+							</h2>
+							<h2 class="nav-heading">
+								<a href="camera.html" class="prefix-batch batch-camera">器材</a>
+							</h2>
+							<h2 class="nav-heading">
+								<a href="group.html" class="prefix-batch batch-group">小组</a>
+							</h2>
+							<h2 class="nav-heading">
+								<a href="about.html" class="prefix-batch batch-activity">关于</a>
+							</h2>
+						</div>
+						<div class="col-second">
+							<h2 class="nav-heading">
+								<a href="##" title="题材">题材标签</a>
+							</h2>
+							<ul class="nav-list">
+								<li><a href="##" class="pinned">人像</a></li>
+								<li><a href="##" class="pinned">街拍</a></li>
+								<li><a href="##" class="pinned">婚纱</a></li>
+								<li><a href="##" class="pinned">建筑</a></li>
+								<li><a href="##" class="pinned">风光</a></li>
+								<li><a href="##" class="pinned">静物</a></li>
+								<li><a href="##" class="pinned">纪实</a></li>
+								<li><a href="##" class="pinned">星空</a></li>
+								<li><a href="##" class="pinned">动物</a></li>
+								<li><a href="##" class="pinned">人文</a></li>
+								<li><a href="##">城市</a></li>
+								<li><a href="##">旅行</a></li>
+								<li><a href="##">美女</a></li>
+								<li><a href="##">夜景</a></li>
+								<li><a href="##">自然</a></li>
+								<li><a href="##">少女</a></li>
+								<li><a href="##">光影</a></li>
+								<li><a href="##">生活</a></li>
+								<li><a href="##">植物</a></li>
+								<li><a href="##">花卉</a></li>
+								<li><a href="##">校园</a></li>
+								<li><a href="##">儿童</a></li>
+								<div class="clear"></div>
+							</ul>
+							<h2 class="nav-heading">
+								<a href="##" title="地区">地区标签</a>
+							</h2>
+							<ul class="nav-list">
+								<li><a href="##">北京</a></li>
+								<li><a href="##">上海</a></li>
+								<li><a href="##">广州</a></li>
+								<li><a href="##">成都</a></li>
+								<li><a href="##">四川</a></li>
+								<li><a href="##">深圳</a></li>
+								<li><a href="##">宁波</a></li>
+								<li><a href="##">南京</a></li>
+								<li><a href="##">云南</a></li>
+								<li><a href="##">杭州</a></li>
+								<li><a href="##">重庆</a></li>
+								<li><a href="##">武汉</a></li>
+								<li><a href="##">天津</a></li>
+								<li><a href="##">浙江</a></li>
+								<li><a href="##">厦门</a></li>
+								<li><a href="##">西安</a></li>
+								<li><a href="##">安徽</a></li>
+								<li><a href="##">大连</a></li>
+								<li><a href="##">青岛</a></li>
+								<li><a href="##">长沙</a></li>	
+								<div class="clear"></div>
+							</ul>
+						</div>
+						<div class="col-third">
+							<h2 class="nav-heading">
+								<a href="##" title="风格">风格标签</a>
+							</h2>
+							<ul class="nav-list">
+								<li><a href="##" class="pinned">黑白</a></li>
+								<li><a href="##" class="pinned">后期</a></li>
+								<li><a href="##" class="pinned">小清新</a></li>
+								<li><a href="##" class="pinned">长曝光</a></li>
+								<li><a href="##">色彩</a></li>
+								<li><a href="##">情绪</a></li>
+								<li><a href="##">抓拍</a></li>
+								<li><a href="##">日系</a></li>
+								<li><a href="##">情感</a></li>
+								<li><a href="##">小品</a></li>
+								<div class="clear"></div>
+							</ul>
+							<h2 class="nav-heading">
+								<a href="##" title="器材">器材标签</a>
+							</h2>
+							<ul class="nav-list">
+								<li><a href="##">胶片</a></li>
+								<li><a href="##">佳能</a></li>
+								<li><a href="##">尼康</a></li>
+								<li><a href="##">索尼</a></li>
+								<li><a href="##">手机</a></li>
+								<li><a href="##">50mm</a></li>
+								<li><a href="##">广角</a></li>
+								<li><a href="##">35mm</a></li>
+								<li><a href="##">富士</a></li>
+								<li><a href="##">宾得</a></li>
+								<div class="clear"></div>
+							</ul>
+							<h2 class="nav-heading">
+								<a href="##" title="讨论">讨论</a>
+							</h2>
+							<ul class="nav-list">
+								<li><a href="##">纪实</a></li>
+								<li><a href="##">人像</a></li>
+								<li><a href="##">风光</a></li>
+								<li><a href="##">后期</a></li>
+								<li><a href="##">器材</a></li>
+								<li><a href="##">胶片</a></li>
+								<li><a href="##">佳能</a></li>
+								<li><a href="##">尼康</a></li>
+								<li><a href="##">索尼</a></li>
+								<li><a href="##">广角</a></li>
+								<div class="clear"></div>
+							</ul>
+						</div>
+					</nav>
+				</div>
+				<ul class="nav-subnav">
+					<li><a href="##">我的小组</a></li>
+					<li><a href="##" class="active">所有小组</a></li>
+<!-- 					<li><a href="##">人像</a></li>
+					<li><a href="##">人文</a></li>
+					<li><a href="##">风光</a></li>	
+					<li><a href="##">纪实</a></li>
+					<li><a href="##">静物</a></li>
+					<li><a href="##">旅行</a></li> -->
+					<div class="clear"></div>
+				</ul>
+			</nav>
+		</nav>
+		<div class="clear"></div>
+		<section id="section">
+			<main class="main">
+				<section class="main-header">
+					<h2 class="card-header">
+						<a href="##">按地区检索</a>
+					</h2>
+					<ul class="card-inner">
+						<li>
+							<span>华北</span>
+							<a href="##">北京</a>
+							<a href="##">天津</a>
+							<a href="##">河北</a>
+							<a href="##">山西</a>
+							<a href="##">内蒙古</a>
+						</li>
+						<li>
+							<span>华东</span>
+							<a href="##">上海</a>
+							<a href="##">山东</a>
+							<a href="##">江苏</a>
+							<a href="##">安徽</a>
+							<a href="##">浙江</a>
+							<a href="##">福建</a>
+							<a href="##">江西</a>
+						</li>
+						<li>
+							<span>华南</span>
+							<a href="##">广东</a>
+							<a href="##">广西</a>
+							<a href="##">海南</a>
+							<a href="##">香港</a>
+							<a href="##">澳门</a>
+							<a href="##">台湾</a>
+						</li>
+						<li>
+							<span>华中</span>
+							<a href="##">湖北</a>
+							<a href="##">湖南</a>
+							<a href="##">河南</a>
+						</li>
+						<li>
+							<span>东北</span>
+							<a href="##">辽宁</a>
+							<a href="##">吉林</a>
+							<a href="##">黑龙江</a>
+						</li>
+						<li>
+							<span>西北</span>
+							<a href="##">陕西</a>
+							<a href="##">宁夏</a>
+							<a href="##">新疆</a>
+							<a href="##">青海</a>
+							<a href="##">甘肃</a>
+						</li>
+						<li>
+							<span>西南</span>
+							<a href="##">四川</a>
+							<a href="##">云南</a>
+							<a href="##">贵州</a>
+							<a href="##">西藏</a>
+							<a href="##">重庆</a>
+						</li>
+						<li>
+							<span>亚太</span>
+							<a href="##">日本</a>
+							<a href="##">马来西亚</a>
+							<a href="##">新加坡</a>
+							<a href="##">澳大利亚</a>
+							<a href="##">新西兰</a>
+						</li>
+						<li>
+							<span>欧洲</span>
+							<a href="##">德国</a>
+							<a href="##">英国</a>
+							<a href="##">法国</a>
+							<a href="##">瑞士</a>
+							<a href="##">捷克</a>
+							<a href="##">俄罗斯</a>
+						</li>
+						<li>
+							<span>美洲</span>
+							<a href="##">美国</a>
+							<a href="##">加拿大</a>
+						</li>
+						<div class="clear"></div>
+					</ul>
+				</section>
+				<section>
+					<ul class="group-list">
+						<li>
+							<div class="group">
+							<a href="##" class="group-img" title="我爱植物公开组">
+								<img src="img/group/g1.png" alt="我爱植物公开组" />
+							</a>
+							<h3 class="name">
+								<a href="##" class="name_img" title="我爱植物公开组">我爱植物公开组</a>
+							</h3>
+							<span class="member-count">114成员</span>
+							<p class="desc">深圳 爱之屋 花花草草 发芽 绿色 大自然</p>
+							</div>
+						</li>
+						<li>
+							<div class="group">
+							<a href="##" class="group-img" title="中国微距联盟">
+								<img src="img/group/g2.png" alt="中国微距联盟" />
+							</a>
+							<h3 class="name">
+								<a href="##" class="name_img" title="中国微距联盟">中国微距联盟</a>
+							</h3>
+							<span class="member-count">32成员</span>
+							<p class="desc">微观大世界</p>
+							</div>
+						</li>
+						<li>
+							<div class="group">
+							<a href="##" class="group-img" title="微距摄影公开小组">
+								<img src="img/group/g3.png" alt="微距摄影公开小组" />
+							</a>
+							<h3 class="name">
+								<a href="##" class="name_img" title="微距摄影公开小组">微距摄影公开小组</a>
+							</h3>
+							<span class="member-count">165成员</span>
+							<p class="desc">希望成员之间相互尊重，点赞评论学习提高:-) !</p>
+							</div>
+						</li>
+						</li>
+							<li>
+							<div class="group">
+							<a href="##" class="group-img" title="自然摄影小组">
+								<img src="img/group/g4.png" alt="自然摄影小组" />
+							</a>
+							<h3 class="name">
+								<a href="##" class="name_img" title="自然摄影小组">自然摄影小组</a>
+							</h3>
+							<span class="member-count">34成员</span>
+							<p class="desc">欢迎以野生动植物以及人文地理为拍摄题材的摄影师进入小组交流</p>
+							</div>
+						</li>
+						<li>
+							<div class="group">
+							<a href="##" class="group-img" title="风光人文地理">
+								<img src="img/group/g5.png" alt="风光人文地理" />
+							</a>
+							<h3 class="name">
+								<a href="##" class="name_img" title="风光人文地理">风光人文地理</a>
+							</h3>
+							<span class="member-count">150成员</span>
+							<p class="desc">风光人文地理</p>
+							</div>
+						</li>
+						<li>
+							<div class="group">
+							<a href="##" class="group-img" title="上海城市风光 ">
+								<img src="img/group/g6.png" alt="上海城市风光" />
+							</a>
+							<h3 class="name">
+								<a href="##" class="name_img" title="上海城市风光">上海城市风光</a>
+							</h3>
+							<span class="member-count">807成员</span>
+							<p class="desc">惊叹于自然的超凡力量，醉心于迷人的华灯初上，沉浸于城市的大街小巷。</p>
+							</div>
+						</li>
+						<li>
+							<div class="group">
+							<a href="##" class="group-img" title="沪上街影">
+								<img src="img/group/g7.png" alt="沪上街影" />
+							</a>
+							<h3 class="name">
+								<a href="##" class="name_img" title="沪上街影">沪上街影</a>
+							</h3>
+							<span class="member-count">90成员</span>
+							<p class="desc">记录这座城市的光影，欢迎扫街党们一起建设好小组：）</p>
+							</div>
+						</li>
+						<li>
+							<div class="group">
+							<a href="##" class="group-img" title="双向摄影组 ">
+								<img src="img/group/g8.png" alt="双向摄影组 " />
+							</a>
+							<h3 class="name">
+								<a href="##" class="name_img" title="双向摄影组 ">双向摄影组 </a>
+							</h3>
+							<span class="member-count">152成员</span>
+							<p class="desc">风光，人像，创意，交流群：1群29883795已满，2群46072047，3群14777518</p>
+							</div>
+						</li>
+						<li>
+							<div class="group">
+							<a href="##" class="group-img" title="朋友有个圈 ">
+								<img src="img/group/g9.png" alt="朋友有个圈" />
+							</a>
+							<h3 class="name">
+								<a href="##" class="name_img" title="朋友有个圈">朋友有个圈</a>
+							</h3>
+							<span class="member-count">54成员</span>
+							<p class="desc">好朋友转个圈圈 (～o￣▽￣)～o界</p>
+							</div>
+						</li>
+						<li>
+							<div class="group">
+							<a href="##" class="group-img" title="拍吗 ">
+								<img src="img/group/g10.png" alt="拍吗 " />
+							</a>
+							<h3 class="name">
+								<a href="##" class="name_img" title="拍吗 ">拍吗 </a>
+							</h3>
+							<span class="member-count">17成员</span>
+							<p class="desc">街拍 纪实 态度</p>
+							</div>
+						</li>
+						<li>
+							<div class="group">
+							<a href="##" class="group-img" title="北京影像记录小组">
+								<img src="img/group/g11.png" alt="北京影像记录小组" />
+							</a>
+							<h3 class="name">
+								<a href="##" class="name_img" title="北京影像记录小组">北京影像记录小组</a>
+							</h3>
+							<span class="member-count">77成员</span>
+							<p class="desc">记录身边的故事,记录人生成长,记录消逝的青春,记录美好人生,记录点滴瞬间</p>
+							</div>
+						</li>
+						<li>
+							<div class="group">
+							<a href="##" class="group-img" title="梁山好汉摄影俱乐部 ">
+								<img src="img/group/g12.png" alt="梁山好汉摄影俱乐部 " />
+							</a>
+							<h3 class="name">
+								<a href="##" class="name_img" title="梁山好汉摄影俱乐部 ">梁山好汉摄影俱乐部 </a>
+							</h3>
+							<span class="member-count">37成员</span>
+							<p class="desc">梁山泊摄影群</p>
+							</div>
+						</li>
+						<li>
+							<div class="group">
+							<a href="##" class="group-img" title="月象城市建筑">
+								<img src="img/group/g13.png" alt="月象城市建筑 " />
+							</a>
+							<h3 class="name">
+								<a href="##" class="name_img" title="月象城市建筑">月象城市建筑</a>
+							</h3>
+							<span class="member-count">143成员</span>
+							<p class="desc">任何地方的城市风光都可以发来交流</p>
+							</div>
+						</li>
+						<li>
+							<div class="group">
+							<a href="##" class="group-img" title="中国爬楼联盟 ">
+								<img src="img/group/g14.png" alt="中国爬楼联盟" />
+							</a>
+							<h3 class="name">
+								<a href="##" class="name_img" title="中国爬楼联盟">中国爬楼联盟</a>
+							</h3>
+							<span class="member-count">500成员</span>
+							<p class="desc">拍出一个新中国，城市上空的风景</p>
+							</div>
+						</li>
+						<li>
+							<div class="group">
+							<a href="##" class="group-img" title="迷光恋影 ">
+								<img src="img/group/g15.png" alt="迷光恋影 " />
+							</a>
+							<h3 class="name">
+								<a href="##" class="name_img" title="迷光恋影 ">迷光恋影 </a>
+							</h3>
+							<span class="member-count">108成员</span>
+							<p class="desc">小组目前只限"迷光恋影"QQ群用户加入 希望大家在这里多多交流摄影作品与拍摄心得。</p>
+							</div>
+						</li>
+						<li>
+							<div class="group">
+							<a href="##" class="group-img" title="街事  ">
+								<img src="img/group/g16.png" alt="街事 " />
+							</a>
+							<h3 class="name">
+								<a href="##" class="name_img" title="街事 ">街事 </a>
+							</h3>
+							<span class="member-count">147成员</span>
+							<p class="desc">街拍，欢迎</p>
+							</div>
+						</li>
+						<li>
+							<div class="group">
+							<a href="##" class="group-img" title="南京扫街控  ">
+								<img src="img/group/g17.png" alt="南京扫街控 " />
+							</a>
+							<h3 class="name">
+								<a href="##" class="name_img" title="南京扫街控 ">南京扫街控 </a>
+							</h3>
+							<span class="member-count">247成员</span>
+							<p class="desc">反映南京生活的扫街作品，召集南京扫街硬腿子。扫街以外的片子可能会被拒绝哟。</p>
+							</div>
+						</li>
+						<li>
+							<div class="group">
+							<a href="##" class="group-img" title="深圳人文纪实摄影小组 ">
+								<img src="img/group/g18.png" alt="深圳人文纪实摄影小组" />
+							</a>
+							<h3 class="name">
+								<a href="##" class="name_img" title="深圳人文纪实摄影小组">深圳人文纪实摄影小组</a>
+							</h3>
+							<span class="member-count">254成员</span>
+							<p class="desc">人文纪实、街头摄影爱好者，欢迎加入交流！“</p>
+							</div>
+						</li>
+						<li>
+							<div class="group">
+							<a href="##" class="group-img" title="海上马格南  ">
+								<img src="img/group/g19.png" alt="海上马格南 " />
+							</a>
+							<h3 class="name">
+								<a href="##" class="name_img" title="海上马格南 ">海上马格南 </a>
+							</h3>
+							<span class="member-count">3150成员</span>
+							<p class="desc">本群组的照片标准依照马格南图片的要求：具有事件性、故事性、趣味性</p>
+							</div>
+						</li>
+						<li>
+							<div class="group">
+							<a href="##" class="group-img" title="E▪shutter  ">
+								<img src="img/group/g20.png" alt="E▪shutter " />
+							</a>
+							<h3 class="name">
+								<a href="##" class="name_img" title="E▪shutter ">E▪shutter </a>
+							</h3>
+							<span class="member-count">43成员</span>
+							<p class="desc">私人群</p>
+							</div>
+						</li>
+						<li>
+							<div class="group">
+							<a href="##" class="group-img" title="郑在啪啪啪  ">
+								<img src="img/group/g21.png" alt="郑在啪啪啪 " />
+							</a>
+							<h3 class="name">
+								<a href="##" class="name_img" title="郑在啪啪啪 ">郑在啪啪啪 </a>
+							</h3>
+							<span class="member-count">30成员</span>
+							<p class="desc">私人小组</p>
+							</div>
+						</li>
+						<li>
+							<div class="group">
+							<a href="##" class="group-img" title="郑州扫街兴趣小组 ">
+								<img src="img/group/g22.png" alt="郑州扫街兴趣小组" />
+							</a>
+							<h3 class="name">
+								<a href="##" class="name_img" title="郑州扫街兴趣小组">郑州扫街兴趣小组</a>
+							</h3>
+							<span class="member-count">251成员</span>
+							<p class="desc">关于郑州我想的全是你，想来想去都是忏悔和委屈 关于郑州我爱的全是你，爱来爱去不明白爱的意义 关于郑州</p>
+							</div>
+						</li>
+						<li>
+							<div class="group">
+							<a href="##" class="group-img" title="洛阳摄影人 ">
+								<img src="img/group/g23.png" alt="洛阳摄影人" />
+							</a>
+							<h3 class="name">
+								<a href="##" class="name_img" title="洛阳摄影人">洛阳摄影人</a>
+							</h3>
+							<span class="member-count">52成员</span>
+							<p class="desc">不限题材，欢迎以前认识的和新认识的朋友们加入交流。</p>
+							</div>
+						</li>
+						<li>
+							<div class="group">
+							<a href="##" class="group-img" title="极限视觉 ">
+								<img src="img/group/g24.png" alt="极限视觉" />
+							</a>
+							<h3 class="name">
+								<a href="##" class="name_img" title="极限视觉">极限视觉</a>
+							</h3>
+							<span class="member-count">13成员</span>
+							<p class="desc">人像</p>
+							</div>
+						</li>
+						<li>
+							<div class="group">
+							<a href="##" class="group-img" title="深圳风光爱好者  ">
+								<img src="img/group/g25.png" alt="深圳风光爱好者 " />
+							</a>
+							<h3 class="name">
+								<a href="##" class="name_img" title="深圳风光爱好者 ">深圳风光爱好者 </a>
+							</h3>
+							<span class="member-count">578成员</span>
+							<p class="desc">欢迎爱好城市、自然风光摄影的朋友加入！</p>
+							</div>
+						</li>
+						<li>
+							<div class="group">
+							<a href="##" class="group-img" title="說故事的人 ">
+								<img src="img/group/g26.png" alt="說故事的人" />
+							</a>
+							<h3 class="name">
+								<a href="##" class="name_img" title="說故事的人">說故事的人</a>
+							</h3>
+							<span class="member-count">26成员</span>
+							<p class="desc">街头 纪实 摄影</p>
+							</div>
+						</li>
+						<li>
+							<div class="group">
+							<a href="##" class="group-img" title="微单摄影联萌  ">
+								<img src="img/group/g27.png" alt="微单摄影联萌 " />
+							</a>
+							<h3 class="name">
+								<a href="##" class="name_img" title="微单摄影联萌 ">微单摄影联萌 </a>
+							</h3>
+							<span class="member-count">12成员</span>
+							<p class="desc">人文主题、风光主题都可以，最好是使用无反相机拍摄，单反也行，</p>
+							</div>
+						</li>
+						<li>
+							<div class="group">
+							<a href="##" class="group-img" title="光线传奇 ">
+								<img src="img/group/g28.png" alt="光线传奇" />
+							</a>
+							<h3 class="name">
+								<a href="##" class="name_img" title="光线传奇">光线传奇</a>
+							</h3>
+							<span class="member-count">55成员</span>
+							<p class="desc">光与影的交织</p>
+							</div>
+						</li>
+						<li>
+							<div class="group">
+							<a href="##" class="group-img" title="北京胡同爱好者 ">
+								<img src="img/group/g29.png" alt="北京胡同爱好者" />
+							</a>
+							<h3 class="name">
+								<a href="##" class="name_img" title="北京胡同爱好者">北京胡同爱好者</a>
+							</h3>
+							<span class="member-count">198成员</span>
+							<p class="desc">胡同</p>
+							</div>
+						</li>
+						<li>
+							<div class="group">
+							<a href="##" class="group-img" title="让摄影回归简单 ">
+								<img src="img/group/g30.png" alt="让摄影回归简单" />
+							</a>
+							<h3 class="name">
+								<a href="##" class="name_img" title="让摄影回归简单">让摄影回归简单</a>
+							</h3>
+							<span class="member-count">117成员</span>
+							<p class="desc">欢迎进阶和高阶摄影师加入</p>
+							</div>
+						</li>
+						<li>
+							<div class="group">
+							<a href="##" class="group-img" title="行拍广州，行拍珠三角！ ">
+								<img src="img/group/g31.png" alt="行拍广州，行拍珠三角！" />
+							</a>
+							<h3 class="name">
+								<a href="##" class="name_img" title="行拍广州，行拍珠三角！">行拍广州，行拍珠三角！</a>
+							</h3>
+							<span class="member-count">35成员</span>
+							<p class="desc">有关广州以及珠三角以至粤港澳的一切</p>
+							</div>
+						</li>
+						<li>
+							<div class="group">
+							<a href="##" class="group-img" title="杭州风光 ">
+								<img src="img/group/g32.png" alt="杭州风光" />
+							</a>
+							<h3 class="name">
+								<a href="##" class="name_img" title="杭州风光">杭州风光</a>
+							</h3>
+							<span class="member-count">403成员</span>
+							<p class="desc">钱塘江畔，西子湖边，欲与天堂相媲美</p>
+							</div>
+						</li>
+						<li>
+							<div class="group">
+							<a href="##" class="group-img" title="天与地 ">
+								<img src="img/group/g33.png" alt="天与地" />
+							</a>
+							<h3 class="name">
+								<a href="##" class="name_img" title="天与地">天与地</a>
+							</h3>
+							<span class="member-count">62成员</span>
+							<p class="desc">中国好世界</p>
+							</div>
+						</li>
+						<li>
+							<div class="group">
+							<a href="##" class="group-img" title="京城影像 ">
+								<img src="img/group/g34.png" alt="京城影像" />
+							</a>
+							<h3 class="name">
+								<a href="##" class="name_img" title="京城影像">京城影像</a>
+							</h3>
+							<span class="member-count">26成员</span>
+							<p class="desc">北京城市风貌</p>
+							</div>
+						</li>
+						<li>
+							<div class="group">
+							<a href="##" class="group-img" title="油城摄影 ">
+								<img src="img/group/g35.png" alt="油城摄影" />
+							</a>
+							<h3 class="name">
+								<a href="##" class="name_img" title="油城摄影">油城摄影</a>
+							</h3>
+							<span class="member-count">35成员</span>
+							<p class="desc">风光</p>
+							</div>
+						</li>
+						<li>
+							<div class="group">
+							<a href="##" class="group-img" title="行摄奉天  ">
+								<img src="img/group/g36.png" alt="行摄奉天 " />
+							</a>
+							<h3 class="name">
+								<a href="##" class="name_img" title="行摄奉天 ">行摄奉天 </a>
+							</h3>
+							<span class="member-count">112成员</span>
+							<p class="desc">沈阳影友专区</p>
+							</div>
+						</li>
+					</ul>
+				</section>
+				<div class="pagebar">
+					<div class="page">
+						<span class="pfist">1</span>
+						<a href="##">2</a>
+						<a href="##">3</a>
+						<a href="##">4</a>
+						<span>···</span>
+						<a href="##" class="next">下一页</a>
+						<form method="get">
+							&nbsp;&nbsp;共10页 到第
+							<input class="input-page" type="number" value="1" min="1" max="10"/>
+							页
+							<button type="submit" class="pbt">确定</button>
+						</form>
+					</div>
+				</div>
+			</main>
+			<aside id="side">
+				<section class="widget">
+					<h3 class="side-header">没有适合你的小组？</h3>
+					<p class="inner">
+						<a href="##">申请创建小组</a>
+					</p>
+				</section>
+			</aside>
+		</section>
+		<div class="clear"></div>
+        <div class="backtop"></div>
+        <footer id="footer">
+            <div class="bottom">Copyright © 2016.Company name All rights reserved</div>
+        </footer>
+
+    </body>
+
+    </html>

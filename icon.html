@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>Wolfshell</title>
+		<link href="img/theWolf.ico" rel="shortcut icon" />
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+<!-- 		<link rel="stylesheet" type="text/css" href="css/index.css" />
+	    	<link rel="stylesheet" type="text/css" href="css/about.css" />
+	    	<link rel="stylesheet" type="text/css" href="css/camera.css" />
+	    	<link rel="stylesheet" type="text/css" href="css/group.css" /> -->
+	    	<link rel="stylesheet" type="text/css" href="css/icon.css" />
+		<script src="js/jquery.min.js" type="text/javascript"></script>
+		<!-- <script src="js/index.js" type="text/javascript"></script> -->
+		<script src="js/icon.js" type="text/javascript"></script>
+		<!-- <script src="js/camera.js" type="text/javascript"></script> -->
+		<script src="js/common.js" type="text/javascript"></script>
+	</head>
+
+	<body>
+
+		<header>
+			<div id="banner_tabs">
+				<section>
+					<div class="logo"><a href="index.html"><h2>Wolfshell</h2></a></div>
+					<div class="navigation">
+						<ul>
+							<li><a href="index.html">首页</a></li>
+							<li><a href="group.html">小组</a></li>
+							<li><a href="icon.html" class="active">影像</a></li>
+							<li><a href="camera.html">器材</a></li>
+							<li><a href="about.html">关于</a></li>
+						</ul>
+					</div>
+					<div id="search">
+						<div class="center"></div>
+						<input type="text" class="search" placeholder="发现更多美" />
+						<a href="#" class="btn">搜索</a>
+					</div>
+				</section>
+			</div>
+		</header>
+		<nav>
+			<nav class="nav-container">
+				<div class="nav-title">
+					<a href="icon.html">影像<span class="nav-link"></span></a>
+					<nav class="nav-more">
+						<div class="nav-more-arrow"></div>
+						<div class="col-first">
+							<h2 class="nav-heading">
+								<a href="index.html" class="prefix-batch batch-home">首页</a>
+							</h2>
+							<h2 class="nav-heading">
+								<a href="icon.html" class="prefix-batch batch-movie">影像</a>
+							</h2>
+							<h2 class="nav-heading">
+								<a href="camera.html" class="prefix-batch batch-camera">器材</a>
+							</h2>
+							<h2 class="nav-heading">
+								<a href="group.html" class="prefix-batch batch-group">小组</a>
+							</h2>
+							<h2 class="nav-heading">
+								<a href="about.html" class="prefix-batch batch-activity">关于</a>
+							</h2>
+						</div>
+						<div class="col-second">
+							<h2 class="nav-heading">
+								<a href="##" title="题材">题材标签</a>
+							</h2>
+							<ul class="nav-list">
+								<li><a href="##" class="pinned">人像</a></li>
+								<li><a href="##" class="pinned">街拍</a></li>
+								<li><a href="##" class="pinned">婚纱</a></li>
+								<li><a href="##" class="pinned">建筑</a></li>
+								<li><a href="##" class="pinned">风光</a></li>
+								<li><a href="##" class="pinned">静物</a></li>
+								<li><a href="##" class="pinned">纪实</a></li>
+								<li><a href="##" class="pinned">星空</a></li>
+								<li><a href="##" class="pinned">动物</a></li>
+								<li><a href="##" class="pinned">人文</a></li>
+								<li><a href="##">城市</a></li>
+								<li><a href="##">旅行</a></li>
+								<li><a href="##">美女</a></li>
+								<li><a href="##">夜景</a></li>
+								<li><a href="##">自然</a></li>
+								<li><a href="##">少女</a></li>
+								<li><a href="##">光影</a></li>
+								<li><a href="##">生活</a></li>
+								<li><a href="##">植物</a></li>
+								<li><a href="##">花卉</a></li>
+								<li><a href="##">校园</a></li>
+								<li><a href="##">儿童</a></li>
+								<div class="clear"></div>
+							</ul>
+							<h2 class="nav-heading">
+								<a href="##" title="地区">地区标签</a>
+							</h2>
+							<ul class="nav-list">
+								<li><a href="##">北京</a></li>
+								<li><a href="##">上海</a></li>
+								<li><a href="##">广州</a></li>
+								<li><a href="##">成都</a></li>
+								<li><a href="##">四川</a></li>
+								<li><a href="##">深圳</a></li>
+								<li><a href="##">宁波</a></li>
+								<li><a href="##">南京</a></li>
+								<li><a href="##">云南</a></li>
+								<li><a href="##">杭州</a></li>
+								<li><a href="##">重庆</a></li>
+								<li><a href="##">武汉</a></li>
+								<li><a href="##">天津</a></li>
+								<li><a href="##">浙江</a></li>
+								<li><a href="##">厦门</a></li>
+								<li><a href="##">西安</a></li>
+								<li><a href="##">安徽</a></li>
+								<li><a href="##">大连</a></li>
+								<li><a href="##">青岛</a></li>
+								<li><a href="##">长沙</a></li>	
+								<div class="clear"></div>
+							</ul>
+						</div>
+						<div class="col-third">
+							<h2 class="nav-heading">
+								<a href="##" title="风格">风格标签</a>
+							</h2>
+							<ul class="nav-list">
+								<li><a href="##" class="pinned">黑白</a></li>
+								<li><a href="##" class="pinned">后期</a></li>
+								<li><a href="##" class="pinned">小清新</a></li>
+								<li><a href="##" class="pinned">长曝光</a></li>
+								<li><a href="##">色彩</a></li>
+								<li><a href="##">情绪</a></li>
+								<li><a href="##">抓拍</a></li>
+								<li><a href="##">日系</a></li>
+								<li><a href="##">情感</a></li>
+								<li><a href="##">小品</a></li>
+								<div class="clear"></div>
+							</ul>
+							<h2 class="nav-heading">
+								<a href="##" title="器材">器材标签</a>
+							</h2>
+							<ul class="nav-list">
+								<li><a href="##">胶片</a></li>
+								<li><a href="##">佳能</a></li>
+								<li><a href="##">尼康</a></li>
+								<li><a href="##">索尼</a></li>
+								<li><a href="##">手机</a></li>
+								<li><a href="##">50mm</a></li>
+								<li><a href="##">广角</a></li>
+								<li><a href="##">35mm</a></li>
+								<li><a href="##">富士</a></li>
+								<li><a href="##">宾得</a></li>
+								<div class="clear"></div>
+							</ul>
+							<h2 class="nav-heading">
+								<a href="##" title="讨论">讨论</a>
+							</h2>
+							<ul class="nav-list">
+								<li><a href="##">纪实</a></li>
+								<li><a href="##">人像</a></li>
+								<li><a href="##">风光</a></li>
+								<li><a href="##">后期</a></li>
+								<li><a href="##">器材</a></li>
+								<li><a href="##">胶片</a></li>
+								<li><a href="##">佳能</a></li>
+								<li><a href="##">尼康</a></li>
+								<li><a href="##">索尼</a></li>
+								<li><a href="##">广角</a></li>
+								<div class="clear"></div>
+							</ul>
+						</div>
+					</nav>
+				</div>
+				<ul class="nav-subnav">
+					<li><a href="##" class="active">动态</a></li>
+					<li><a href="##">观片</a></li>
+					<li><a href="##">人像</a></li>
+					<li><a href="##">人文</a></li>
+					<li><a href="##">风光</a></li>	
+					<li><a href="##">纪实</a></li>
+					<li><a href="##">静物</a></li>
+					<li><a href="##">旅行</a></li>
+					<div class="clear"></div>
+				</ul>
+			</nav>
+		</nav>
+		<div class="clear"></div>
+		<section id="section">
+			<!--图片轮播-->
+			<div class="content">
+				<div class="widget-slide">
+					<div class="slide-wrapper">
+						<div class="slide-item item1"></div>
+						<div class="slide-item item2"></div>
+						<div class="slide-item item3"></div>
+						<div class="slide-item item4"></div>
+						<div class="slide-item item5"></div>
+						<div class="slide-item item6"></div>
+					</div>
+					<div class="slide-map">
+						<a class="map-left" href="##" ></a>
+						<a class="slide-prev" href="javascript:void(0);"></a>
+						<a class="map-right" href="##" ></a>
+						<a class="slide-next" href="javascript:void(0);"></a>
+					</div>
+					<div class="slide-mask">
+						<ol>
+							<li><a class="bullet-default selected" href="javascript:void(0);"></a></li>
+							<li><a class="bullet-default" href="javascript:void(0);"></a></li>
+							<li><a class="bullet-default" href="javascript:void(0);"></a></li>
+							<li><a class="bullet-default" href="javascript:void(0);"></a></li>
+							<li><a class="bullet-default" href="javascript:void(0);"></a></li>
+							<li><a class="bullet-default" href="javascript:void(0);"></a></li>
+						</ol>
+					</div>
+				</div>
+				<!--图片轮播-->
+				<!--分类-->
+				<div class="widget-tab">
+					<div class="tab-wrapper">
+						<a class="tab-item active" href="##">推荐</a>
+						<a class="tab-item" href="##">动态</a>
+						<a class="tab-item" href="##">学院</a>
+						<a class="tab-item" href="##">大片</a>
+						<a class="tab-item" href="##">书房</a>
+						<a class="tab-item" href="##">教程</a>
+					</div>
+				</div>
+				<!--分类-->
+				<!--主体-->
+				<div class="widget-visionlist">
+					<ul class="pagelist">
+						<li class="vision-item">
+							<a class="item-img" href="##">
+								<img src="img/icon/item-img1.png"/>
+							</a>
+							<div class="item-info">
+								<a class="item-title" href="##">
+									"你好，我的样子！—— 99个中国人肖像故事征集创作赛"11名摄影师征集结果揭晓
+								</a>
+								<p class="item-desc">
+									由月象举办的“你好，我的样子！— 99个中国人肖像故事征集创作赛”第一阶段的入围摄影师征选，在不到两周征稿时间内，吸引963位摄影师进入图虫平台投稿，共获得1922份稿件。经评委团慎重评分，11名入围摄影师已经揭晓，这里精选每位入围摄影师的投稿作品进行展示。
+								</p>
+							</div>
+							<div class="item-related">
+								<div class="item-tags">
+									<img src="img/icon/tag.png"/>
+									<a href="##">人像</a>
+									<a href="##">黑白</a>
+									<a href="##">手机</a>
+									<a href="##">35mm</a>
+									<a href="##">人文</a>
+									<a href="##">你好，我的样子！</a>
+								</div>
+								<div class="item-handler">
+									<a href="##">
+										<img src="img/icon/message.png"/>
+										<p>4</p>
+									</a>
+								</div>
+							</div>
+						</li>
+						<li class="vision-item">
+							<a class="item-img" href="##">
+								<img src="img/icon/item-img2.png"/>
+							</a>
+							<div class="item-info">
+								<a class="item-title" href="##">
+									摄影怎么玩？
+								</a>
+								<p class="item-desc">
+									不久之前，这个叫做春夏的姑娘，凭借电影《踏血寻梅》获得“第35届香港电影金像奖”最佳女主角奖。而就在很多人还不知道这个与郭天王搭档荣登影后宝座的小姑娘是什么来头时，摄影圈里的人像摄影师们早就开始为她祝贺了。然而这一条影后之路并不平坦。谁曾想到，在几年前，春夏还只是一名路边随处可见的老法师群拍模特。被法师们拍出来的照片是这样这样还有这样而且作品下面往往还有这样的留言恐怕春夏再回首起这段往事时，她的内...
+								</p>
+							</div>
+							<div class="item-related">
+								<div class="item-tags">
+									<img src="img/icon/tag.png"/>
+									<a href="##">女神计划</a>
+									<a href="##">月象网</a>
+									<a href="##">人像</a>
+								</div>
+								<div class="item-handler">
+									<a href="##">
+										<img src="img/icon/message.png"/>
+										<p>15</p>
+									</a>
+								</div>
+							</div>
+						</li>
+						<li class="vision-item">
+							<a class="item-img" href="##">
+								<img src="img/icon/item-img3.png"/>
+							</a>
+							<div class="item-info">
+								<a class="item-title" href="##">一名年轻摄影记者的获奖反思</a>
+								<p class="item-desc">2014年1月8日，在埃及首都开罗,军方支持者在开罗警察学院外高喊口号，声讨原定出席庭审的前总统穆尔西。当日，由于天气原因，运送关押在埃及第二大城市亚历山大一处监狱的穆尔西的直升机迟迟无法起飞。埃及开罗刑事法院宣布，将前总统穆尔西及多名穆斯林兄弟会领导人涉嫌煽动暴力和谋杀示威者一案推迟至2月1日审理。新华社记者潘超越摄 本文刊登于新华社摄影部《新华摄影月报》第53期照片获2014尼康国际摄影大赛三等奖；2015IPA...</p>
+							</div>
+							<div class="item-related">
+								<div class="item-tags">
+									<img src="img/icon/tag.png"/>
+									<a href="##">纪实</a>
+									<a href="##">尼康</a>
+									<a href="##">24mm</a>
+								</div>
+								<div class="item-handler">
+									<a href="##">
+										<img src="img/icon/message.png"/>
+										<p>18</p>
+									</a>
+								</div>
+							</div>
+						</li>
+						<li class="vision-item">
+							<a class="item-img" href="##">
+								<img src="img/icon/item-img4.png"/>
+							</a>
+							<div class="item-info">
+								<a class="item-title" href="##">
+									吹毛求疵，组照张数会是这组图片获得普利策奖的重要原因？
+								</a>
+								<p class="item-desc">
+									2016第100届普利策奖揭晓，《波士顿环球报》摄影记者Jessica Rinaldi凭《Strider Wolf的生活和时间》（The life and times of Strider Wolf）获专题新闻摄影奖。这是关于一个男孩惨遭父母虐待后，被穷困潦倒的祖父母收养，辗转于缅因州森林中的数个营地，最终找到新家的故事。Strider Wolf出生于缅因州乡村的贫困家庭。两岁的时候，母亲盛怒的男友几乎把他打死。总算渡过难关后，他最终得到了祖父母的照顾。不过他的祖...
+								</p>
+							</div>
+							<div class="item-related">
+								<div class="item-tags">
+									<img src="img/icon/tag.png"/>
+									<a href="##">纪实</a>
+									<a href="##">尼康</a>
+								</div>
+								<div class="item-handler">
+									<a href="##">
+										<img src="img/icon/message.png"/>
+										<p>20</p>
+									</a>
+								</div>
+							</div>
+						</li>
+						<li class="vision-item">
+							<a class="item-img" href="##">
+								<img src="img/icon/item-img5.png"/>
+							</a>
+							<div class="item-info">
+								<a class="item-title" href="##">
+									一场艺术与创作的对话：摄影的循环利用｜埃里克·索斯
+								</a>
+								<p class="item-desc">
+									密苏里州（Ste.Genevieve），2004 埃里克· 索斯（ Alec Soth）是一位投身于摄影项目的摄影师。尽管他的每一幅照片各具价值，甚至毋庸置疑地被认为是一幅幅独立的单幅照片，但只有在原本的图片系列中，它们才会完整地体现照片的本意，如此才能有助于叙事的发展，而这一点则常常塑造了照片本身。  镜头背后系列《埃里克·索斯：乒乓对谈》［意］弗朗西斯·扎诺特｜著［美］埃里克·索斯｜摄杨卓君｜译北京美术摄影出版社 2016年3月IS...
+								</p>
+							</div>
+							<div class="item-related">
+								<div class="item-tags">
+									<img src="img/icon/tag.png"/>
+									<a href="##">纪实</a>
+									<a href="##">人物</a>
+									<a href="##">马格南</a>
+								</div>
+								<div class="item-handler">
+									<a href="##">
+										<img src="img/icon/message.png"/>
+										<p>16</p>
+									</a>
+								</div>
+							</div>
+						</li>
+						<li class="vision-item">
+							<a class="item-img" href="##">
+								<img src="img/icon/item-img6.png"/>
+							</a>
+							<div class="item-info">
+								<a class="item-title" href="##">
+									教程｜《Face Sri Lanka》布光及后期思路大揭秘
+								</a>
+								<p class="item-desc">
+									《Face Sri Lanka》旅行摄影作品自发布以来，受到圈内很多好评，甚至单灯大师Zack Arais也惊叹Beautiful！很多朋友跟我们留言，想咨询拍摄的器材清单，布光思路以及后期步骤，在此EI将逐一讲解，层层揭秘幕后技法。－EI Studio
+								</p>
+							</div>
+							<div class="item-related">
+								<div class="item-tags">
+									<img src="img/icon/tag.png"/>
+									<a href="##">教程</a>
+									<a href="##">人文</a>
+									<a href="##">旅行</a>
+									<a href="##">斯里兰卡</a>
+									<a href="##">闪光灯</a>
+								</div>
+								<div class="item-handler">
+									<a href="##">
+										<img src="img/icon/message.png"/>
+										<p>17</p>
+									</a>
+								</div>
+							</div>
+						</li>
+						<li class="vision-item-s">
+							<a class="item-title-s" href="##">故土的孩子</a>
+							<div class="item-pics">
+								<a class="item-img-s" href="##">
+									<img src="img/icon/item-img7-1.png"/>
+								</a>
+								<a class="item-img-s" href="##">
+									<img src="img/icon/item-img7-2.png"/>
+								</a>
+								<a class="item-img-s" href="##">
+									<img src="img/icon/item-img7-3.png"/>
+								</a>
+								<a class="item-img-s" href="##">
+									<img src="img/icon/item-img7-4.png"/>
+								</a>
+								<div class="clear"></div>
+								<span class="hint">共9图</span>
+							</div>
+							<div class="item-info-s">
+								<p class="item-desc">童年源于故土，止于异乡。这让人想起小时候，就不得不想起故土的浮光。金闪闪，忽明忽暗。</p>
+							</div>
+							<div class="item-related">
+								<div class="item-tags">
+									<img src="img/icon/tag.png"/>
+									<a href="##">黑白</a>
+									<a href="##">纪实</a>
+									<a href="##">人像</a>
+									<a href="##">你好，我的样子！</a>
+								</div>
+								<div class="item-handler">
+									<a href="##">
+										<img src="img/icon/message.png"/>
+										<p>9</p>
+									</a>
+								</div>
+							</div>
+						</li>
+						<li class="vision-item-s">
+							<a class="item-title-s" href="##">VCHARM</a>
+							<div class="item-pics">
+								<a class="item-img-s" href="##">
+									<img src="img/icon/item-img8-1.png"/>
+								</a>
+								<a class="item-img-s" href="##">
+									<img src="img/icon/item-img8-2.png"/>
+								</a>
+								<a class="item-img-s" href="##">
+									<img src="img/icon/item-img8-3.png"/>
+								</a>
+								<a class="item-img-s" href="##">
+									<img src="img/icon/item-img8-4.png"/>
+								</a>
+								<div class="clear"></div>
+								<span class="hint">共9图</span>
+							</div>	
+							<div class="item-info-s">
+								<p class="item-desc">摄影/后期：-SHANN-模特：谭倩/SMG森明模特演艺制作机构化妆：许刺猬/Jogo studio</p>
+							</div>
+							<div class="item-related">
+								<div class="item-tags">
+									<img src="img/icon/tag.png"/>
+									<a href="##">摄影</a>
+									<a href="##">纪实</a>
+									<a href="##">人像</a>
+									<a href="##">你好，我的样子！</a>
+								</div>
+								<div class="item-handler">
+									<a href="##">
+										<img src="img/icon/message.png"/>
+										<p>23</p>
+									</a>
+								</div>
+							</div>
+						</li>
+					</ul>
+					<div class="load-more"><a href="##">加载更多</a></div>
+				</div>
+				<!--主体-->
+			</div>
+		</section>
+        <div class="backtop"></div>
+        <footer id="footer">
+            <div class="bottom">Copyright © 2016.Company name All rights reserved</div>
+        </footer>
+
+    </body>
+
+    </html>
