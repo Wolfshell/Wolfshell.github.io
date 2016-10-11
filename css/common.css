@@ -211,7 +211,7 @@ nav{
 	font-size: 14px;
 	float: left;
 	width: 90px;
-	margin-left: 6em;
+	margin-left: 10em;
 }
 .nav-title>a{
 	display: block;
@@ -244,7 +244,7 @@ nav{
 	border-radius: 2px;
 	box-shadow: 0 4px 30px rgba(0,0,0,0.3);
 	position: absolute;
-	left: 90px;
+	/*left: 90px;*/
 	top: 46px;
 	z-index: 999;
 }
