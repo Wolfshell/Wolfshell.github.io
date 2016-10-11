@@ -203,8 +203,8 @@ nav{
 	padding: 0 0 16px 0;
 }
 .nav-container{
-	width: 1000px;
-	margin: 0 auto;
+	min-width: 1263px;
+	width: 100%;
 	position: relative;
 }
 .nav-title{
@@ -343,7 +343,7 @@ nav{
 .nav-subnav{
 	margin-top: 14px;
 	display: inline-block;
-	margin-left: 10em;
+	margin-left: 15em;
 	font-size: 14px;
 }
 .nav-subnav li{
@@ -386,6 +386,11 @@ nav{
 	-o-transition: .3s all;
 	-ms-transition: .3s all;*/
 }
+#footer{
+	min-width: 1263px;
+	width: 100%
+}
+
 #footer .bottom{
 	margin-top: 20px;
 	height: 80px;
