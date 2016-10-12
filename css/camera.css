@@ -2,8 +2,9 @@
 .icon-list{
 	position: relative;
 	/*margin-left: 60px;*/
-	width: 100%;
+	width: 1211px;
 	height: 100%;
+	margin: 0 auto;
 }
 .ilist-left{
 	width: 191px;
@@ -99,10 +100,10 @@
 
 /* 右侧导航栏 */
 .ilist-right{
-	float: right;
+	float: left;
 	width: 979px;
 	height: 514px;
-	margin-right: 60px;
+	margin-left: 40px;
 }
 .right-box{
 	border: 1px solid #d6d1d1;
