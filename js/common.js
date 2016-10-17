@@ -48,6 +48,23 @@ function startMove(obj, attr, iTarget)
 }
 
 $(function(){
+	if(!document.getElementsByClassName){
+		document.getElementsByClassName = function(className, element){
+			var children = (element || document).getElementsByTagName('*');
+			var elements = new Array();
+			for (var i=0; i<children.length; i++){
+				var child = children[i];
+				var classNames = child.className.split(' ');
+				for (var j=0; j<classNames.length; j++){
+					if (classNames[j] == className){ 
+						elements.push(child);
+						break;
+					}
+				}
+			} 
+			return elements;
+		};
+	}
 	//导航栏
 	$("nav .nav-title").hover(function(){
 		$(".nav-more").show();
@@ -58,26 +75,26 @@ $(function(){
 	$(".nav-subnav").find("li").each(function(){
 		_this = $(this);
 		_this.click(function(){
-		$(this).find("a").addClass("active");
-		$(this).siblings().find("a").removeClass("active");
-	})
+			$(this).find("a").addClass("active");
+			$(this).siblings().find("a").removeClass("active");
+		})
 	})
 	//回到顶部
 	var backTop = document.getElementsByClassName('backtop')[0];
 	var scrollTop = null;
 	 // 置顶对象点击事件
-    backTop.onclick = function() {
-        var timer = setInterval(function() {
-            window.scrollBy(0, -50);
-            if (document.body.scrollTop == 0) {
-                clearInterval(timer);
-            };
-        }, 8);
-    }
+	 backTop.onclick = function() {
+	 	var timer = setInterval(function() {
+	 		window.scrollBy(0, -50);
+	 		if (document.body.scrollTop == 0) {
+	 			clearInterval(timer);
+	 		};
+	 	}, 8);
+	 }
 
     // 窗口滚动检测
     window.onscroll = function() {
     	scrollTop = document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop;
-        backTop.style.display = (document.body.scrollTop >= 500) ? "block" : "none";
+    	backTop.style.display = (document.body.scrollTop >= 500) ? "block" : "none";
     }
 })
