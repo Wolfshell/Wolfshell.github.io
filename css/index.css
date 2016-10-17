@@ -61,6 +61,7 @@
 }
 #find_roll .mroll{
 	width: 1050px;
+	position: relative;
 	height: 220px;
 	overflow: hidden;
 	margin: 0 auto;
